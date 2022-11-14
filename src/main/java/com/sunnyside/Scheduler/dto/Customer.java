@@ -5,13 +5,13 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class CustomerDTO {
+public class Customer {
 
     private Integer id;
     private String name;
     private String address;
     private String phoneNumber;
     private String emailAddress;
-    private List<JobDTO> jobs;
+    private List<Job> jobs;
 
 }
